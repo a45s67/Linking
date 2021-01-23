@@ -1,4 +1,4 @@
-# Linking
+d# Linking
 
 鍵結的研究
 
@@ -26,3 +26,7 @@ extern , static
 只是不知道不會怎樣
 知道了會很不一樣
 @@!!
+
+reference:
+[https://docs.microsoft.com/zh-tw/cpp/build/reference/decorated-names?view=msvc-160](decorated name (MSDN))
+程序員的自我修養:鍵結,裝載與庫
