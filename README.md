@@ -4,11 +4,11 @@
 
 
 
-decorated name(name mangling)
-compiler在compile過程中為了各個vars,funcs,objects產生出的encoded string
-ex. string裡面記錄著這個func的使用的calling convention,參數,type等等的訊息
+decorated name(name mangling)  
+compiler在compile過程中為了各個vars,funcs,objects產生出的encoded string  
+ex. string裡面記錄著這個func的使用的calling convention,參數,type等等的訊息  
 
-這個東西屬於在compile和linker的內部實作細節，正常的程序員，是不需要碰這些的
+這個東西屬於在compile和linker的內部實作細節，正常的程序員，是不需要碰這些的  
 -> 不同的vs版本，decorate的方式也不同
 -> ex. 
   - vs2008 : extern "C" hello(); -> hello
@@ -28,5 +28,5 @@ extern , static
 @@!!
 
 reference:
-[decorated name (MSDN)](https://docs.microsoft.com/zh-tw/cpp/build/reference/decorated-names?view=msvc-160)
+[decorated name (MSDN)](https://docs.microsoft.com/zh-tw/cpp/build/reference/decorated-names?view=msvc-160)  
 程序員的自我修養:鍵結,裝載與庫
