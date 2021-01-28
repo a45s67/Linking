@@ -51,3 +51,4 @@ gcc -lmyLib -o myexec mymain.o
 [decorated name (MSDN)](https://docs.microsoft.com/zh-tw/cpp/build/reference/decorated-names?view=msvc-160)  
 [extern c++(MSDN)](https://docs.microsoft.com/zh-tw/cpp/cpp/extern-cpp?view=msvc-160)  
 程序員的自我修養:鍵結,裝載與庫  
+[COFF Symbol Table](http://www.delorie.com/djgpp/doc/coff/symtab.html)
