@@ -46,10 +46,6 @@ gcc -lmyLib -o myexec mymain.o
 
 
 
-雖然不知道這些知識，也能順利的compile和link出 exe
-只是不知道不會怎樣
-知道了會很不一樣
-@@!!
 
 ## Reference:  
 [decorated name (MSDN)](https://docs.microsoft.com/zh-tw/cpp/build/reference/decorated-names?view=msvc-160)  
