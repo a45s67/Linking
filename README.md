@@ -32,7 +32,7 @@ __attribute__((weakref)) (p93)
 #### extern "C"
 -
 
-### static link .lib
+# Static link .lib
 .lib 有兩種意義
 - 編譯dll時，會輸出兩個檔- .lib &.dll，.lib只是用來給linker關於.dll相關的資訊
 - 編譯lib時，則只輸出.lib，程式碼的實做全部都在裡面了，此時.lib是.obj檔們用ar壓出來的集合包(ar)，windows下可以用7z打開。
