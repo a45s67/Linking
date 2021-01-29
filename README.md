@@ -15,6 +15,8 @@ ex. string裡面記錄著這個func的使用的calling convention,參數,type等
 
 - 因此假設有一個vs2008生出來的dll，vs2019的專案想使用這dll，是很有可能接不起來的 - LNK2019,LNK2001,LNK1120 無法解析的外部符號
 
+##### 獲得.obj內symbol的方法:
+- dumpbin /symbols a.obj
 
 ### Func overloading
 func signature -> decorated name (p88)
