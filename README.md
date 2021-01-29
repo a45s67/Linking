@@ -11,7 +11,7 @@ compiler在compile過程中為了各個vars,funcs,objects產生出的encoded str
 ex. string裡面記錄著這個func的使用的calling convention,參數,type等等的訊息  
 
 這個東西屬於compile和linker的內部實作細節，它們只對compiler和linker有意義，正常的程序員，是不需要碰這些的  
-- 不同的vs版本，decorate的方式也不同  
+- 不同的vs版本，decorate的方式可能也不同  
 
 - 因此假設有一個vs2008生出來的dll，vs2019的專案想使用這dll，是很有可能接不起來的 - LNK2019,LNK2001,LNK1120 無法解析的外部符號
 
